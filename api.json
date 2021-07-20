@@ -1,0 +1,56 @@
+[
+  {
+    "precio": 250,
+    "id": 1,
+    "title": "Vasito",
+    "thumbnailUrl": "img/vasito.jpg" 
+  },
+  {
+    "precio": 300,
+    "id": 2,
+    "title": "Cucurucho",
+    "thumbnailUrl": "img/cucurucho.jpg"
+  },
+  {
+    "precio": 400,
+    "id": 3,
+    "title": "Pote de 1/4 Kg",
+    "thumbnailUrl": "img/potedulcedeleche.jpg"
+  },
+  {
+    "precio": 650,
+    "id": 4,
+    "title": "Pote de 1/2 Kg",
+    "thumbnailUrl": "img/frutasalacrema.jpg"
+  },
+  {
+    "precio": 1200,
+    "id": 5,
+    "title": "Pote de 1 Kg",
+    "thumbnailUrl": "img/dulcedeleche.jpg"
+  },
+  {
+    "precio": 250,
+    "id": 6,
+    "title": "cafe/capuchino",
+    "thumbnailUrl": "img/capuchino.jpg"
+  },
+   {
+    "precio": 350,
+    "id": 7,
+    "title": "Porcion torta lemon pie",
+    "thumbnailUrl": "img/tortalemmon.jpg"
+  },
+   {
+    "precio": 400,
+    "id": 8,
+    "title": "Porcion selva negra",
+    "thumbnailUrl": "img/tortachoco.jpg"
+  },
+   {
+    "precio": 400,
+    "id": 9,
+    "title": "Porcion torta Balcarce",
+    "thumbnailUrl": "img/tortabalcarce.jpg"  
+  }
+]

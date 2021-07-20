@@ -1,0 +1,242 @@
+/*Seccion 1 principal (index) */
+body{
+   background: linear-gradient(#bed1d1, #fed3fe,#bed1d1);
+}
+main{
+    box-sizing: border-box;
+    width:600px;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header,footer{  
+    background-color:#14868C;
+    border-radius: 15px;
+
+} 
+nav{
+    margin-top: 50px;
+    background-color: #feb1bb;    
+} 
+
+.nav-item:hover{
+    border: 2px solid #feb1bb;
+    border-radius: 30px;
+    
+}
+
+.img-nav{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+}
+
+
+h1{
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 50px;
+    text-shadow: 2px 2px black ;
+    color: whitesmoke;
+}
+
+h2 {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px white; 
+    background-color: #14868C;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+}
+
+h4{
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* Seccion 2 NOSOTROS con animaciones con jQuery */
+
+#animaciones{
+    box-sizing: border-box;
+}
+
+#parrafo{
+    margin: 20px;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: center;   
+}
+
+#buttons{
+    display: block;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: #56585a ;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color:  #14868C;
+    border:2px solid #fed3fe;
+}
+
+/* Tienda */
+.card{
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border:2px solid #fed3fe;
+  
+}
+
+.card:hover{
+    box-shadow: 2px 5px 20px #39393a;  
+    transition: 0.3s; 
+}
+
+
+/* FORMULARIO CONTACTO 
+Seccion 3 Formulario de contacto con validaciones js */
+
+.contact_form { 
+    box-sizing: border-box; 
+    width: 80%;
+    /* margin: 0 auto; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 30px;
+    resize: vertical;
+    background-image: url(https://metode.es/wp-content/uploads/2018/07/CUCURUCHOS.jpg);
+}
+
+
+
+input {
+    display: block;
+    /* se ajusta el contenido en bloque */
+    width: 70%;
+    /* los ordena en bloque uno debajo del otro  */
+    padding: 10px;
+    margin: 0 auto;
+   /* arriba y abajo a los costados automatico */
+    border: none;
+    border-bottom: 2px solid #56585a;
+    background-color: transparent;
+    transition: background 0.8s;
+}
+
+
+input::placeholder{
+    color: #56585a;
+    font-weight: bold;
+    transition: color 0.8s ;
+}
+
+
+input:hover {
+    background-color: #fed3fe;
+}
+
+
+input:hover::placeholder {
+    font-style: italic;
+    font-size: 20px;
+}
+
+input[type="submit"], input[type="reset"]{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #56585a;
+    color: white;
+    transition: 2s;
+}
+
+input:hover[type="submit"], input:hover[type="reset"]{
+    width: 50%;
+    background-color: #14868C;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact_form{
+    display:block;
+    margin: 0 auto;   
+}
+
+
+.green {
+    color: green;
+    text-align: center;
+}
+
+.red {
+    color: red;
+    text-align: center;
+}
+
+/* FOOTER  */
+footer{
+    display:block;
+    font-weight: bold;
+}
+
+#contacto, #ubicacion{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    font-weight: bold;
+    
+
+}
+
+
+#redes{
+    padding-top: 15px;
+    padding: 1em;
+    text-align: center;
+    border: 2px solid #feb1bb;
+}
+
+#p-footer{
+    font-weight: bold;
+}
+
+
+
+
+
